@@ -16,7 +16,7 @@ const Navbar = () => {
                         <a className='hover:font-bold' href='#'>Contact</a>
                     </li>
                 </ul> */}
-                <a href="https://github.com/pushkarkumar4" target="_blank" rel="noopener noreferrer" className='text-white bg-green-700 my-5 mx-2 rounded-full flex  justify-between items-center ring-white ring-1 hover:bg-green-600 transition-colors duration-300'> 
+                <a href="https://github.com/pushkarkumarsaini2006/Password-Manager" target="_blank" rel="noopener noreferrer" className='text-white bg-green-700 my-5 mx-2 rounded-full flex  justify-between items-center ring-white ring-1 hover:bg-green-600 transition-colors duration-300'> 
                     <img className='invert  w-10 p-1' src="/icons/github.svg" alt="github logo" />
                     <span className='font-bold px-2'>GitHub</span>
                 </a>
