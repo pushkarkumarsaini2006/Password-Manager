@@ -53,14 +53,14 @@ PassOP is a modern, responsive web-based password manager that helps you securel
 
 ## 🚀 Demo
 
-> **🌟 Live Demo**: [**PassOP Password Manager**](https://passop-password-manager.vercel.app/)
+> **🌟 Live Demo**: [**PassOP Password Manager**](https://password-manager-nu-ten.vercel.app/)
 > 
 > *Experience secure password management with real-time features and beautiful animations!*
 
 ## 📦 Installation
 
 ### 🌐 Try Online First!
-**Want to see it in action immediately?** Check out the [**Live Demo**](https://passop-password-manager.vercel.app/) deployed on Vercel!
+**Want to see it in action immediately?** Check out the [**Live Demo**](https://password-manager-nu-ten.vercel.app/) deployed on Vercel!
 
 ### Quick Start
 
