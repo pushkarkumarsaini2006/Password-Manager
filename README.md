@@ -66,8 +66,8 @@ PassOP is a modern, responsive web-based password manager that helps you securel
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/pushkarkumarsaini2006/PassOP-Password-Manager.git
-   cd PassOP-Password-Manager/passop-mongo
+   git clone https://github.com/pushkarkumarsaini2006/Password-Manager.git
+   cd Password-Manager/passop-mongo
    ```
 
 2. **Install dependencies**
@@ -157,8 +157,8 @@ Contributions are welcome! Here's how you can help:
 
 ```bash
 # Clone your fork
- git clone https://github.com/pushkarkumarsaini2006/PassOP-Password-Manager.git
- cd PassOP-Password-Manager/passop-mongo
+ git clone https://github.com/pushkarkumarsaini2006/Password-Manager.git
+ cd Password-Manager/passop-mongo
 
 # Create a feature branch
  git checkout -b feature/your-feature-name
@@ -185,10 +185,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📊 Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/pushkarkumarsaini2006/PassOP-Password-Manager?style=social)
-![GitHub forks](https://img.shields.io/github/forks/pushkarkumarsaini2006/PassOP-Password-Manager?style=social)
-![GitHub issues](https://img.shields.io/github/issues/pushkarkumarsaini2006/PassOP-Password-Manager)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/pushkarkumarsaini2006/PassOP-Password-Manager)
+![GitHub stars](https://img.shields.io/github/stars/pushkarkumarsaini2006/Password-Manager?style=social)
+![GitHub forks](https://img.shields.io/github/forks/pushkarkumarsaini2006/Password-Manager?style=social)
+![GitHub issues](https://img.shields.io/github/issues/pushkarkumarsaini2006/Password-Manager)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/pushkarkumarsaini2006/Password-Manager)
 
 ---
 
