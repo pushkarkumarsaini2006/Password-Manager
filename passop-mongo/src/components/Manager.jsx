@@ -194,13 +194,15 @@ const Manager = () => {
             <div className=" p-3 md:mycontainer min-h-[88.2vh] ">
                 <h1 className='text-4xl text font-bold text-center'>
                     <span className='text-green-500'> &lt;</span>
-
                     <span>Pass</span><span className='text-green-500'>OP/&gt;</span>
-
                 </h1>
                 <p className='text-green-900 text-lg text-center'>Your own Password Manager</p>
 
-                <div className="flex flex-col p-4 text-black gap-8 items-center">
+                <form
+                  className="flex flex-col p-4 text-black gap-8 items-center"
+                  onSubmit={e => { e.preventDefault(); savePassword(); }}
+                  autoComplete="off"
+                >
                     <input value={form.site} onChange={handleChange} placeholder='Enter website URL' className='rounded-full border border-green-500 w-full p-4 py-1' type="text" name="site" id="site" />
                     <div className="flex flex-col md:flex-row w-full justify-between gap-8">
                         <input value={form.username} onChange={handleChange} placeholder='Enter Username' className='rounded-full border border-green-500 w-full p-4 py-1' type="text" name="username" id="username" />
@@ -211,9 +213,8 @@ const Manager = () => {
                             </span>
                         </div>
                     </div>
-                    
                     <div className="flex gap-4 w-full justify-center">
-                        <button onClick={generatePassword} className='flex justify-center items-center gap-2 bg-blue-500 hover:bg-blue-400 rounded-full px-6 py-2 w-fit border border-blue-700 text-white'>
+                        <button type="button" onClick={generatePassword} className='flex justify-center items-center gap-2 bg-blue-500 hover:bg-blue-400 rounded-full px-6 py-2 w-fit border border-blue-700 text-white'>
                             <lord-icon
                                 src="https://cdn.lordicon.com/jgnvfzqg.json"
                                 trigger="hover"
@@ -221,7 +222,7 @@ const Manager = () => {
                             </lord-icon>
                             Generate
                         </button>
-                        <button onClick={savePassword} disabled={isLoading} className='flex justify-center items-center gap-2 bg-green-400 hover:bg-green-300 rounded-full px-8 py-2 w-fit border border-green-900 disabled:opacity-50'>
+                        <button type="submit" disabled={isLoading} className='flex justify-center items-center gap-2 bg-green-400 hover:bg-green-300 rounded-full px-8 py-2 w-fit border border-green-900 disabled:opacity-50'>
                             <lord-icon
                                 src="https://cdn.lordicon.com/jgnvfzqg.json"
                                 trigger="hover">
@@ -229,7 +230,7 @@ const Manager = () => {
                             {isLoading ? 'Saving...' : 'Save'}
                         </button>
                     </div>
-                </div>
+                </form>
 
                 <div className="passwords">
                     <h2 className='font-bold text-2xl py-4'>Your Passwords</h2>
